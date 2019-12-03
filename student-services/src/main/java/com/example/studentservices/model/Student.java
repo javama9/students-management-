@@ -11,6 +11,7 @@ public class Student {
     private String email;
     private int age;
     private String address;
+    private String createdOn;
 
     public String getId() {
         return id;
@@ -50,5 +51,13 @@ public class Student {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getCreatedOn() {
+        return createdOn;
+    }
+
+    public void setCreatedOn(String createdOn) {
+        this.createdOn = createdOn;
     }
 }
